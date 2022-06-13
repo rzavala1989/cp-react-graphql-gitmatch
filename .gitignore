@@ -2,9 +2,13 @@
 
 # dependencies
 /node_modules
+client/node_modules
 server/node_modules
 /.pnp
 .pnp.js
+
+# sensitive keys
+server/config/keys.js
 
 # testing
 /coverage
